@@ -14,9 +14,3 @@ In order to start this game please double click index.html.
 
 
 
-
-
-
-
-
-
