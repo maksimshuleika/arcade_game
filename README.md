@@ -1,8 +1,22 @@
-How to start game:
+# How to start game:
+
 In order to start this game please double click index.html.
 
-Rules:
-In order to win game and get points you need to achieve water level without toucching bugs. One point is added for each achievement. One point is substracted in case you touched bug.
+# Rules:
+
+* Achieve water level without touching bugs in order to win the game. 
+* One point is added for each achievement. 
+* One point is substracted in case you touched bug.
+
+# Link to game on GitHub:
+
+* [Game](https://peckalo.github.io/arcade_game/).
+
+
+
+
+
+
 
 
 

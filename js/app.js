@@ -1,3 +1,4 @@
+"use strict";
 // Enemies our player must avoid
 var Enemy = function() {
     // Variables applied to each of our instances go here,
@@ -8,15 +9,15 @@ var Enemy = function() {
     this.sprite = 'images/enemy-bug.png';
     this.x = 0;
     this.y = Math.floor(Math.random() * 3)*85+60;
-    this.vx = Math.floor(Math.random() * 300)+50;
-    this.vy = 0;
+    this.speedx = Math.floor(Math.random() * 300)+50;
+    this.speedy = 0;
 };
 
 // Update the enemy's position, required method for game
 // Parameter: dt, a time delta between ticks
 Enemy.prototype.update = function(dt) {
-    this.x = this.x + this.vx * dt;
-    this.y = this.y + this.vy * dt;
+    this.x = this.x + this.speedx * dt;
+    this.y = this.y + this.speedy * dt;
     if (this.x > 600) {
         this.x = -100;
     }
